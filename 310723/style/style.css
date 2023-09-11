@@ -184,7 +184,6 @@ margin-top: 50px;
     width: 30%;
 }
 
-
 .itemServico1:hover,
 .itemServico3:hover,
 .itemServico6:hover,
@@ -221,5 +220,43 @@ margin-top: 25px;
 html {
 
 scroll-behavior: smooth;
+
+}
+
+.containersobreMim{
+
+align-items: center;
+display: flex;
+background: rgb(8, 7, 7);
+color: aliceblue;
+padding-bottom: 50px;
+
+}
+
+.containersobreMim .left{
+
+padding-right: 18px;
+padding-left: 18px;
+flex: 4;
+
+}
+
+.containersobreMim .right{
+
+flex: 6;
+
+}
+
+.containersobreMim video {
+
+border-radius: 40px;
+
+}
+
+#sobreMim{
+
+background: rgb(8, 7, 7);
+padding-top: 10px;
+padding-bottom: 10px;
 
 }
