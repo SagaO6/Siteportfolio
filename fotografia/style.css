@@ -1,0 +1,56 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+.container {
+
+    background-image: url(img/background.png);
+
+}
+
+.left {
+
+    position: absolute;
+    margin-left: 20%;
+    top: 50%;
+    /* right: 10%; */
+    font-size: 40px;
+    color: white;
+    flex: 4;
+
+}
+
+.right {
+
+    
+    width: 500px;
+    border-radius: 20px;
+    background: rgba(253, 252, 253, 0.50);
+    position: absolute;
+    top: 35%;
+    margin-right: 50%;
+    font-size: 40px;
+    left: 60%;
+    flex: 6;
+
+}
+.barra{
+
+
+background: white;
+border: 1px solid black;
+
+}
+button {
+
+    width: 100px;
+    height: 53px;
+    margin-left: 40%;
+    border-radius: 10px;
+    font-size: 20px;
+}
