@@ -104,6 +104,21 @@ h3 {
 
 }
 
+h4{
+
+
+text-align: center;
+font-size: 30px;
+margin-bottom: 20px;
+
+}
+
+.containersobreMim p{
+
+font-size: 20px;
+margin-left: 5px;
+
+}
 
 .right {
     flex: 4;
@@ -114,6 +129,8 @@ h3 {
 }
 
 .left {
+    margin-left: 160px;
+    margin-right: 190px;
     flex: 6;
     text-align: center;
 }
@@ -229,21 +246,17 @@ h3 {
 
 .containersobreMim .left {
 
+    text-align: left;
     padding-right: 18px;
     padding-left: 18px;
-    flex: 4;
+    flex: 7;
+    line-height: 30px;
 
 }
 
 .containersobreMim .right {
 
-    flex: 6;
-
-}
-
-.containersobreMim video {
-
-    border-radius: 40px;
+    flex: 3;
 
 }
 
@@ -257,12 +270,26 @@ h3 {
 
 .Socialmedia{
 
+align-items: center;
 display: flex;
 
 }
 
-.Socialmedia img{
+.Socialmedia a{
 
-width: 30px;
+text-decoration: none;
+color: white;
+
+}
+
+.Socialmedia p:hover{
+
+color: blue;
+
+}
+
+.Socialmedia img:hover{
+
+transform: scale(1.06);
 
 }
