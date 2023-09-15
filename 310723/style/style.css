@@ -293,3 +293,27 @@ color: blue;
 transform: scale(1.06);
 
 }
+
+#contato{
+
+color: white;
+background: rgb(8, 7, 7);
+
+}
+
+.containerContato h2{
+
+font-size: 22px;
+
+}
+
+input, textarea{
+
+width: 200px;
+padding: 10px;
+color: black;
+margin-left: 10px;
+margin-right: 10px;
+border: 1px solid;
+
+}
