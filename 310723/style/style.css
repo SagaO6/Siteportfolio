@@ -104,19 +104,19 @@ h3 {
 
 }
 
-h4{
+h4 {
 
 
-text-align: center;
-font-size: 30px;
-margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
 
 }
 
-.containersobreMim p{
+.containersobreMim p {
 
-font-size: 20px;
-margin-left: 5px;
+    font-size: 20px;
+    margin-left: 5px;
 
 }
 
@@ -268,52 +268,100 @@ margin-left: 5px;
 
 }
 
-.Socialmedia{
+.Socialmedia {
 
-align-items: center;
-display: flex;
-
-}
-
-.Socialmedia a{
-
-text-decoration: none;
-color: white;
+    align-items: center;
+    display: flex;
 
 }
 
-.Socialmedia p:hover{
+.Socialmedia a {
 
-color: blue;
-
-}
-
-.Socialmedia img:hover{
-
-transform: scale(1.06);
+    text-decoration: none;
+    color: white;
 
 }
 
-#contato{
+.Socialmedia p:hover {
 
-color: white;
-background: rgb(8, 7, 7);
-
-}
-
-.containerContato h2{
-
-font-size: 22px;
+    color: blue;
 
 }
 
-input, textarea{
+.Socialmedia img:hover {
 
-width: 200px;
-padding: 10px;
-color: black;
-margin-left: 10px;
-margin-right: 10px;
-border: 1px solid;
+    transform: scale(1.06);
+
+}
+
+.containersobreMim i {
+
+    font-size: 80px;
+
+}
+
+
+#contato {
+
+    color: white;
+    background: rgb(8, 7, 7);
+
+}
+
+.displayContato {
+
+    display: flex;
+
+}
+
+.containerContato h2 {
+
+    font-size: 22px;
+
+}
+
+input,
+textarea {
+
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+
+}
+
+.Mensagem{
+
+margin-top: 20px;
+margin-left: 60px;
+
+}
+
+form h2 {
+
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+textarea{
+
+width: 350px;
+resize: none;
+
+}
+
+.Mensagem input{
+
+width: 130px;
+
+}
+
+.Mensagem input:hover{
+
+cursor: pointer;
 
 }
