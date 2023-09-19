@@ -172,6 +172,7 @@ h4 {
     display: flex;
     justify-content: center;
     padding: 50px;
+    margin-top: -8px;
 
 }
 
@@ -270,7 +271,6 @@ h4 {
 
 .Socialmedia {
 
-    align-items: center;
     display: flex;
 
 }
@@ -296,6 +296,7 @@ h4 {
 
 .containersobreMim i {
 
+    padding-right: 20px;
     font-size: 80px;
 
 }
@@ -363,5 +364,18 @@ width: 130px;
 .Mensagem input:hover{
 
 cursor: pointer;
+
+}
+
+.mapa{
+
+margin-left: 90px;
+
+}
+
+iframe{
+
+border-radius: 5px;
+margin-top: -10px;
 
 }
