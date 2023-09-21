@@ -27,8 +27,7 @@ armazena os metadados -->
     <!-- Tag title: título da guia -->
     <title>Soluções em TI</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style/style.css">
 
 </head>
@@ -47,10 +46,11 @@ armazena os metadados -->
     <!-- Cabeçalho da página -->
 
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="Inicio">
         <div class="container-fluid">
-            <button class="navbar-toggler buttonColor" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler buttonColor" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -75,7 +75,7 @@ armazena os metadados -->
     <!-- fim do menu -->
 
     <header>
-        <!-- inicio da seção apresentação -->
+
         <div class="apresentacao">
 
             <div class="left">
@@ -96,7 +96,7 @@ armazena os metadados -->
             </div>
         </div>
 
-        <!-- Fim da seção apresentação -->
+
     </header>
     <!-- Inicio da seção sobre mim -->
     <section id="sobreMim">
@@ -113,98 +113,61 @@ armazena os metadados -->
                     aspernatur fugiat sequi reprehenderit!</p>
 
 
-                <!-- <video controls autoplay muted width="540px" height="315px" type="video/mp4">
-
-                    <source src="img/videos/Luan Gameplay - Bem vindo ao site zoofilia _ Canal Dorgas.mp4">
-
-                </video> -->
-
             </div>
 
-            <div class="right">
+            <!-- <div class="right">
 
                 <div class="Socialmedia">
 
                     <div>
-
                         <a href="https://api.whatsapp.com/send?phone=5511951958138" target="_blank">
-                            <!-- <img src="img/icones/RedesSociais/Whatsapp-96.png"> -->
+                           
                             <i class="fa-brands fa-whatsapp"></i>
-
                     </div>
-
                     <div>
-
                         <p>(11) 95195-8138</p>
-
                     </div>
-
                     </a>
 
                 </div>
-
                 <div class="Socialmedia">
-
                     <div>
-
                         <a href="https://github.com/SagaO6" target="_blank">
-                            <!-- <img src="img/icones/RedesSociais/GithubCinza-96.png"> -->
+                            
                             <i class="fa-brands fa-github"></i>
-
                     </div>
-
                     <div>
-
                         <p>github.com/SagaO6</p>
-
                     </div>
-
                     </a>
-
                 </div>
 
                 <div class="Socialmedia">
-
                     <div>
-
                         <a href="https://www.linkedin.com/in/thiago-rivas-caballero/" target="_blank">
-                            <!-- <img src="img/icones/RedesSociais/Linkedin-96.png"> -->
+                            
                             <i class="fa-brands fa-linkedin"></i>
-
                     </div>
-
                     <div>
 
                         <p>Thiago Rivas Caballero</p>
-
                     </div>
-
                     </a>
-
                 </div>
 
                 <div class="Socialmedia">
-
                     <div>
-
                         <a href="mailto:cabaleirothiago32@gmail.com">
-                            <!-- <img src="img/icones/RedesSociais/Gmail-96.png"> -->
+                            
                             <i class="fa-solid fa-envelope-open-text"></i>
-
                     </div>
-
                     <div>
-
                         <p>cabaleirothiago32@gmail.com</p>
-
                     </div>
-
                     </a>
-
                 </div>
 
-
-            </div>
+            </div> -->
         </div>
 
     </section>
@@ -353,21 +316,72 @@ armazena os metadados -->
         </div>
 
     </section>
-    <!-- Fim da seção contato -->
-
 
     <!-- Tag footer: seção para identificar o rodapé -->
-    <!-- Inicio do rodape -->
     <footer>
+        <footer class="text-center text-white" style="background-color: #f1f1f1;">
+            
+            <div class="container pt-4">
 
+                <section>
 
-    </footer>
-    <!-- Fim do rodape -->
+                    <a
+                  target="_blank"
+                  class="btn btn-link btn-floating btn-lg text-dark m-1"
+                  href="mailto:cabaleirothiago32@gmail.com"
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fa-solid fa-envelope"></i></a>
 
-    <script src="js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+                    <a 
+                    role="button"
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    data-mdb-ripple-color="dark"
+                    target="_blank"
+                    href="https://api.whatsapp.com/send?phone=5511951958138"
+                    ><i class="fa-brands fa-whatsapp"></i></a>
+
+                    <a
+                    target="_blank"
+                    class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="https://www.linkedin.com/in/thiago-rivas-caballero/"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+
+                  <a
+                  target="_blank"
+                  class="btn btn-link btn-floating btn-lg text-dark m-1"
+                  href="https://github.com/SagaO6""
+                  role="button"
+                  data-mdb-ripple-color="dark"
+                  ><i class="fab fa-github"></i
+                ></a>
+
+                </section>
+                
+                <section class="badgeImg">
+                    
+                    <img src="img/badge/CyberEssentials.png">
+
+                    <img src="img/badge/IT Essentials.png">
+
+                </section>
+                
+            </div>
+
+            <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Copyright:
+                <a class="text-dark" href="#Inicio">Saga.com</a>
+            </div>
+
+        </footer>
+
+        <script src="js/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
 
 </body>
 
