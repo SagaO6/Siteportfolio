@@ -1,0 +1,25 @@
+@media screen and (max-width: 480px) {
+
+.apresentacao {
+
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.left img {
+
+    width: 100%;
+    margin-bottom: 24px;
+
+}
+
+
+.right h2 {
+
+    font-size: 18px;
+    text-align: center;
+
+}
+
+}
